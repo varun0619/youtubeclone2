@@ -1,0 +1,13 @@
+.searchBar {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 80%;
+  border-radius: 8px;
+
+}
+
+@media screen and (max-width: 670px) {
+  .searchBar {
+    width: 100%;
+  }
+}
